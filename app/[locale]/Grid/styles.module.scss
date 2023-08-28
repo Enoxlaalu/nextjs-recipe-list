@@ -1,0 +1,16 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-gap: 16px;
+    padding: 16px;
+    overflow: auto;
+}
+
+.input {
+    padding: 16px;
+}
+
+.noData {
+    font-size: 20px;
+    text-align: center;
+}

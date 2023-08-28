@@ -1,0 +1,16 @@
+@import "app/variables";
+
+.languageSelect {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    span {
+        cursor: pointer;
+    }
+}
+
+.active {
+    color: $orange;
+    font-weight: bold;
+}
